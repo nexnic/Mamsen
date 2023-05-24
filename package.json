@@ -1,7 +1,7 @@
 {
-  "name": "vite-project",
+  "name": "mamsen",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,5 +10,17 @@
   },
   "devDependencies": {
     "vite": "^4.3.2"
-  }
+  },
+  "description": "This is blogg ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexnic/Mamsen.git"
+  },
+  "author": "Kent Erik Hole",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexnic/Mamsen/issues"
+  },
+  "homepage": "https://github.com/nexnic/Mamsen#readme"
 }
