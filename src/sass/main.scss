@@ -1,0 +1,50 @@
+// Main.scss
+    // This is the import file for SASS 
+
+// Absracts
+    // Functions
+        @import './abstracts/functions';
+    // Mixins
+        @import './abstracts/mixins';
+    // Variables 
+        @import './abstracts/variables';
+    
+// Base 
+    // Animations 
+        @import './base/animation';
+    // base 
+        @import './base/base';
+    // Typograghy
+        @import './base/typograghy';
+    // Utilities 
+        @import './base/utilities';
+
+// Components 
+    // Buttons 
+        @import './components/button';
+    // Image 
+        @import './components/image';
+
+// Layout
+    // Grid.scss
+        @import './layout/grid';
+    // Header 
+        @import './layout/header';
+    // Nav
+        @import './layout/nav';
+
+// Pages
+    // Home 
+        @import './pages/home';
+    // Login
+        @import './pages/login';
+    // Register 
+        @import './pages/register';
+    // Food
+        @import './pages/food';
+    // Dogtips
+        @import './pages/dogtips';
+    // Trips
+        @import './pages/trip';
+    // Pack
+        @import './pages/pack';
