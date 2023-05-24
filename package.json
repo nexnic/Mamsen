@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build-sass": "sass src/scss:dist/css",
     "preview": "vite preview",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
@@ -13,6 +14,7 @@
     "test-e2e": "cypress open",
     "test-e2e-report": "cypress run --reporter mochawesome",
     "test-e2e-cli": "cypress run"
+    
   },
   "devDependencies": {
     "cypress": "^12.13.0",
