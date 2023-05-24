@@ -16,7 +16,7 @@ module.exports = {
         "no-unused-vars": "off"
       }
     }
-    
+
   ],
   parserOptions: {
     ecmaVersion: 'latest',
