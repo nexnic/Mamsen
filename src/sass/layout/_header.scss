@@ -4,13 +4,15 @@
     // Home 
     &__home {
         display: flex;
+        justify-items: center;
+        align-items: center;
         flex-direction: row;
         flex-wrap: nowrap;
         min-width: 100%;
         max-width: 100%;
         min-height: 20vh;
-        background-color: red;
-
+        // TO DO 
+        // Remove add to JS 
         background-image: url(../../../public/image/defaultimg/Mamsen_header.jpg);
         background-repeat: no-repeat;
         background-size: cover;
