@@ -10,3 +10,12 @@
     src: url(../../../public/font/Oswald/Oswald-VariableFont_wght.ttf);
 }
 
+// Font - Style
+
+// Text Small 
+
+.text-small {
+    font-family: Oswald;
+    font-size: 13px;
+    color: $white;
+}
