@@ -1,3 +1,22 @@
-nav {
+
+
+#nav {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+
+    &__page {
+        display: inline-flex;
+        gap: 1rem;
+        flex-direction: row;
+        list-style: none;
+    }
+    &__end {
+        display: inline-flex;
+        gap: .1rem;
+        flex-direction: row;
+        list-style: none;
+    }
 }
