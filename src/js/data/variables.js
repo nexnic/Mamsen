@@ -5,4 +5,4 @@
         // Media 
             const media = 'wp/v2/media'
         // Tag 
-            const tag = '/wp/v2/tags'
+            const tag = 'wp/v2/tags'
