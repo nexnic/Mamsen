@@ -1,0 +1,13 @@
+
+// Header 
+.header {
+    // Home 
+    &__home {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+}
