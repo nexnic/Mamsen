@@ -1,4 +1,3 @@
-// Import 
 
 /**
  * Change Meta Tag
@@ -7,7 +6,8 @@
  * 
  * @example
  * ```JS
- * // Change MetaTage
+ *  Get element meta and change content 
+ * ```
  */
 export const SetMetaTAG = (MetaTag, Content) => {
     document.querySelector(`meta[name="${MetaTag}"]`).setAttribute("content", `${Content}`)
