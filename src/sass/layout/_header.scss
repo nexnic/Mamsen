@@ -8,6 +8,13 @@
         flex-wrap: nowrap;
         min-width: 100%;
         max-width: 100%;
+        min-height: 20vh;
+        background-color: red;
+
+        background-image: url(../../../public/image/defaultimg/Mamsen_header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
     }
 
 }
