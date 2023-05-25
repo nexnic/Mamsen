@@ -1,7 +1,9 @@
 // Logo
 
 .logo {
-
+    &__small {
+        max-width: 5rem;
+    }
     &__mid {
         max-height: 10rem;
     }
