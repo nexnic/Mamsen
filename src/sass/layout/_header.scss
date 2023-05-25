@@ -4,7 +4,7 @@
     // Home 
     &__home {
         display: flex;
-        justify-items: center;
+        justify-content: center;
         align-items: center;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -17,10 +17,9 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
-
+        // Header Home Text
         &--text {
             max-width: 50%;
         }
     }
-
 }
