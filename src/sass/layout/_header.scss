@@ -17,6 +17,10 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
+
+        &--text {
+            max-width: 50%;
+        }
     }
 
 }
