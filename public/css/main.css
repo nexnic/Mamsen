@@ -1,3 +1,85 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
 
+@font-face {
+  font-family: Open_Sans;
+  src: url(../../../public/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+  font-family: Oswald;
+  src: url(../../../public/font/Oswald/Oswald-VariableFont_wght.ttf);
+}
+.text-small {
+  font-family: Oswald;
+  font-size: 13px;
+  color: #F5F4F4;
+}
+
+.btn__nav {
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 1.2rem;
+  color: black;
+}
+.btn__nav:hover {
+  font-size: 1.3rem;
+}
+.btn__icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  padding: 0;
+  font: inherit;
+}
+
+.logo__small {
+  max-width: 5rem;
+}
+.logo__mid {
+  max-height: 10rem;
+}
+
+.header__home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 20vh;
+  background-image: url(../../../public/image/defaultimg/Mamsen_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+.header__home--text {
+  max-width: 50%;
+}
+
+#nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+#nav__page {
+  display: inline-flex;
+  gap: 1rem;
+  flex-direction: row;
+  list-style: none;
+}
+#nav__end {
+  display: inline-flex;
+  gap: 0.1rem;
+  flex-direction: row;
+  list-style: none;
+}
 
 /*# sourceMappingURL=main.css.map */
