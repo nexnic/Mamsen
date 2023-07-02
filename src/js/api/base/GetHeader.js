@@ -1,6 +1,5 @@
 import {api} from '../../data/variables'
 
-// https://mamsenapi.frontendkenterik.no/wp-json/wp/v2/posts?categories=3
 export async function GetHeader() {
     const {base_URL, posts, media} = api 
     try {
