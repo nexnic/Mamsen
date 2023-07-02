@@ -1,3 +1,4 @@
+
 export async function GetHeader() {
     try {
         const response = await fetch(
@@ -12,7 +13,7 @@ export async function GetHeader() {
         console.log(response)
         if(response.ok) {
             const data = await response.json()
-            console.log(data)
+            
         }
         if(!response.ok){
             if(response.status === 400) {
