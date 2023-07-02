@@ -1,3 +1,5 @@
-export default () => {
+import {GetHeader} from './GetHeader'
 
+export default () => {
+    GetHeader()
 }
