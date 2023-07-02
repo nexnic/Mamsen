@@ -1,7 +1,7 @@
 export async function GetMedia() {
     try {
         const response = await fetch(
-            'url',{
+            'https://mamsenapi.frontendkenterik.no/wp-json/wp/v2/media',{
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json; charset=UFT-8',
