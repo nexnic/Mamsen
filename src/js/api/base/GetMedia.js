@@ -1,7 +1,11 @@
-export async function GetMedia() {
+
+import {api} from '../../data/variables'
+
+export async function GetMedia(id) {
+    const {base_URL, posts, media} = api 
     try {
         const response = await fetch(
-            'https://mamsenapi.frontendkenterik.no/wp-json/wp/v2/media',{
+            `${base_URL}${media}`,{
                 method: 'GET',
                 headers: {
                     'Content-type': 'application/json; charset=UFT-8',

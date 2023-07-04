@@ -4,3 +4,7 @@ export const api = {
     media: '/wp-json/wp/v2/media',
 }
 
+
+export const SiteLocal ={
+    home: 'Mamsen | Home',
+}

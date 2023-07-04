@@ -1,11 +1,11 @@
 import {api} from '../../data/variables'
-
+import {headerData} from '../../templet/header/headerData'
 export async function GetHeader() {
     const {base_URL, posts, media} = api 
     try {
         
         const response = await fetch(
-           `${base_URL}${posts}?categories=3`,
+           `${base_URL}${posts}?categories=3&_embed`,
             {
                 method: 'GET',
                 headers: {
@@ -16,12 +16,12 @@ export async function GetHeader() {
         console.log(response)
         if(response.ok) {
             const data = await response.json()
-            console.log(data)
+            headerData(data)
         }
         if(!response.ok){
             if(response.status === 400) {
                 const data = await response.json()
-                console.log(data)
+                
             }
         }
     } catch (error) {

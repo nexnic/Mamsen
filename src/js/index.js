@@ -1,3 +1,3 @@
-import {Getinfo} from './api/base/apicall';
+import {routes} from './router/router'
 
-Getinfo()
+routes()
