@@ -1,4 +1,2 @@
-
-import {templetLoading} from './templet/loading/temploading'
-
-templetLoading()
+import {templetNav} from './templet/navigation/templetnav'
+templetNav()
