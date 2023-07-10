@@ -8,3 +8,12 @@ export const api = {
 export const SiteLocal ={
     home: 'Mamsen | Home',
 }
+
+export const loadingSpec = {
+    logo: './public/image/logo/Mamsen-1 (3).png',
+    logoAlt: 'Image of logo to Mamsen',
+    Headline: 'Mamsen',
+    SubHeadLine: 'Loading API...'
+
+
+}
