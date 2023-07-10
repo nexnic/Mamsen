@@ -1,3 +1,44 @@
+// Loading  
+
+#loading {
+  display: block;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  // bug Not on top
+
+  transform:translateX(-40%);
+  
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: $primary-color-dark;
+    padding: $conPad;
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: $con-rad;
+
+    &--logo {
+      min-width: $Load-logo-miw;
+      max-width: $Load-logo-maw;
+    }
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
 .lds-ellipsis {
     display: inline-block;
     position: relative;
