@@ -1,3 +1,4 @@
-import {routes} from './router/router'
 
-routes()
+import {templetLoading} from './templet/loading/temploading'
+
+templetLoading()
