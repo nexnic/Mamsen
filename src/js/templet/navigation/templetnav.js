@@ -88,6 +88,7 @@ export const templetNav = () => {
             const seperatorli = document.createElement('i')
             const seperator = document.createElement('p')
             seperator.innerText ='|'
+
             btnCon.append(seperatorli)
             seperatorli.append(seperator)
 
