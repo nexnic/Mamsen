@@ -1,3 +1,18 @@
+@charset "UTF-8";
+#icon__btn {
+  font-size: 0.625rem;
+}
+
+#btn__icon {
+  border: none;
+  text-decoration: none;
+  background: none;
+}
+
+#logo__small {
+  max-width: 5rem;
+}
+
 #loading {
   display: block;
   position: relative;
@@ -93,6 +108,28 @@
 }
 .header__home--textbox {
   max-width: 50%;
+}
+
+#navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+#navigation__links  {
+  display: inline-flex;
+  gap: 1rem;
+  flex-direction: row;
+  list-style: none;
+}
+#navigation__iconLinks {
+  display: inline-flex;
+  gap: 0.1rem;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
