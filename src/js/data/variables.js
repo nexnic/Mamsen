@@ -17,3 +17,23 @@ export const loadingSpec = {
 
 
 }
+
+export const navDefault = {
+    logo: './public/image/logo/Mamsen-1 (3).png',
+    logoAlt: 'Image of logo to Mamsen',
+    Links: {
+        home: {
+            title: 'Home',
+            src: '',
+        },
+        about: {
+            title: 'About',
+            src: '',
+        },
+        contact: {
+            title: 'Contact',
+            src: ''
+        }
+
+    }
+}
