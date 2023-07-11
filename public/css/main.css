@@ -1,4 +1,17 @@
 @charset "UTF-8";
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
 #icon__btn {
   font-size: 0.625rem;
 }
@@ -96,6 +109,25 @@
     transform: translate(24px, 0);
   }
 }
+#errorMsg {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-30%);
+}
+#errorMsg__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e1e1;
+  max-width: 50%;
+  padding: 1rem;
+  border-radius: 0.7rem;
+  border-left: #DB1600 solid 0.5rem;
+  animation: moveInLeft 1s;
+}
+
 .header__home {
   display: flex;
   justify-content: center;

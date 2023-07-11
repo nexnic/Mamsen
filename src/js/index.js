@@ -1,2 +1,3 @@
-import {templetNav} from './templet/navigation/templetnav'
-templetNav()
+import {GetHeader} from '../js/api/base/GetHeader'
+
+GetHeader()
