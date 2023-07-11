@@ -1,5 +1,7 @@
 import {api} from '../../data/variables'
 import {headerData} from '../../templet/header/headerData'
+import {errorMSG} from '../../tools/error'
+
 export async function GetHeader() {
     const {base_URL, posts, media} = api 
     try {
@@ -19,9 +21,9 @@ export async function GetHeader() {
             headerData(data)
         }
         if(!response.ok){
-            if(response.status === 400) {
+            if(response.status >= 400) {
                 const data = await response.json()
-                
+                errorMSG(data, 0)
             }
         }
     } catch (error) {

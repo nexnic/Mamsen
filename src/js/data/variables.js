@@ -116,3 +116,12 @@ export const DefaultIcon = {
     }
 
 }
+
+
+export const errorID = {
+    0: {
+        header: 'api', 
+        errorMSG: 'Fail get data'
+    }
+
+}
