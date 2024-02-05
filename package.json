@@ -14,10 +14,9 @@
     "test-e2e": "cypress open",
     "test-e2e-report": "cypress run --reporter mochawesome",
     "test-e2e-cli": "cypress run"
-    
   },
   "devDependencies": {
-    "cypress": "^12.13.0",
+    "cypress": "^13.6.4",
     "eslint": "^8.41.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-cypress": "^2.13.3",
@@ -38,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/nexnic/Mamsen/issues"
   },
-  "homepage": "https://github.com/nexnic/Mamsen#readme"
+  "homepage": "https://github.com/nexnic/Mamsen#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1"
+  }
 }
