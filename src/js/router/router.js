@@ -25,7 +25,4 @@ const renderTemplet = async (route) => {
     const html = await fetch(route.templet).then((data) => data.text());
     document.title = route.title
     const MainData = await GetHeader()
-    
-
-
 }
